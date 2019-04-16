@@ -1,0 +1,269 @@
+body {
+  margin: 0px;
+}
+
+.top-nav-1 {
+    background-color: #30393a;
+    position: relative;
+    top: 0;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav div.logodiv {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 80%;
+  top: 40px;
+}
+
+header nav div img.logo {
+  position: relative;
+  padding: 20px;
+
+  width: 200px;
+  height: 170px;
+  color: transparent;
+  
+  background-image: url("images/background.png");
+  background-position-x: -28px;
+
+  z-index: 2;
+  left: 45%;
+}
+
+.top-nav-1 div {
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    height: 40px;
+    width: 250px;
+    border: none;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-nav-1 div img.magnifier {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    top: 6px;
+}
+
+.top-nav-1 div input.search-box {
+  background-color: black;
+  border: none;
+  /*background-image: url("search-icon.png"), none;*/
+  display: block;
+  width: 200px;
+}
+
+.top-nav-1 ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.top-nav-1 ul li {
+    display: block;
+    margin-left: 30px;
+}
+
+.top-nav-1 ul li a {
+  display: block;
+  font-family: 'Merriweather Sans Regular', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img.banner {
+    width: 100%;
+    height: 30%;
+}
+.top-nav-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-line ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.top-nav-2 .top-line a {
+    /*header selector (text)*/
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    color: #a51c30;
+    height: 40px;
+}
+
+.top-line {
+    background: #fff;
+}
+
+.top-left-nav {
+    padding-left: 160px;
+}
+
+.top-left-nav li#about {
+    padding-left: 105px;
+}
+
+.top-left-nav li#admissions {
+    padding-left: 105px;
+}
+
+.top-right-nav {
+    padding-left: 210px;
+}
+
+.top-right-nav li#schools {
+  padding-left: 150px;
+}
+
+.top-right-nav li#campus {
+  padding-left: 150px;
+}
+
+.top-nav-2 .bottom-line a {
+    /*header selector (text)*/
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    color: #a51c30;
+}
+
+.bottom-line {
+    background: #f3f3f1;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.bottom-line ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.bottom-left-nav {
+  padding-left: 50px;
+}
+
+.bottom-left-nav li#gazette {
+  padding-left: 225px;
+}
+
+.bottom-left-nav li#events {
+  padding-left: 175px;
+}
+
+.bottom-right-nav {
+  padding-left: 235px;
+}
+
+.bottom-right-nav li#visit {
+  padding-left: 200px;
+}
+
+.bottom-right-nav li#give {
+  padding-left: 210px;
+}
+
+.banner {
+  /*transform: translateY(2px);*/
+  z-index: 1;
+}
+
+main {
+  background-color: #fff;
+  position: absolute;
+  top: 480px;
+  z-index: 2;
+}
+
+main h1 {
+  font-family: 'Merriweather Light', 'Times New Roman', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+  color: #414141;
+  padding-top: 50px;
+  transform: translateX(400px);
+}
+
+main div div.left-col {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  transform: translateX(400px);
+  padding-top: 50px;
+}
+
+main div div.left-col li a {
+  font-family: 'Merriweather Sans Regular', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #a51c30;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+main div div.center_description div.intro p {
+  font-family: 'Merriweather Light', 'Times New Roman', serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 25px;
+}
+
+main div div.intro {
+  width: 700px;
+}
+
+main div.center_description h3.glance_header {
+  width: 700px;
+}
+
+main div.center_description p.details a {
+  color: #a51c30;
+  text-decoration-line: underline;
+}
+
+main div div.center_description h3.glance_header a {
+    font-family: 'Merriweather Bold', 'Times New Roman', serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 23px;
+    color: #a51c30;
+}
+
+main div div.center_description p.details {
+  width: 700px;
+  line-height: 25px;
+}
+
+main div.center_description {
+  transform: translate(700px, -400px);
+  /*width: 700px;*/
+}

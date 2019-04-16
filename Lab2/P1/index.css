@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine
+}
+
+.mainTable {
+    border-spacing: 20px;
+}
+
+.descriptions {
+    display: none;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    outline-color: white;
+    outline-width: 5px;
+}
+
+td:hover .descriptions {
+    /*
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+    */
+    position: absolute;
+    display: block;
+}
+
+td:hover img {
+    border-radius: 20%;
+}
