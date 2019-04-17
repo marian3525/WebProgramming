@@ -1,0 +1,29 @@
+body {
+	background-color: brown;
+}
+
+body div div div img {
+	height: 150px;
+	width: 150px;
+	padding: 1px;
+}
+
+#column {
+	flex: 25%;
+}
+
+#row {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	/*max-width: 33%;*/
+	width: 610px;
+}
+
+#matrix-container {
+	display: block;
+	position: relative;
+	left: 34%;
+	background-color: grey;
+	width: 610px;
+}
